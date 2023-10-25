@@ -22,3 +22,36 @@
 #hsla{
     color: hsla(240, 45%, 64%, 0.48);
 }
+
+/*exemplos de imagens*/
+.object-fit{
+    width: 200px;
+    height: 300px;
+    border: solid 2px red;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-position: 30px 80%;
+}
+
+#fill{
+    object-fit: fill;
+}
+
+#contain{
+    object-fit: contain;
+}
+
+#cover{
+    object-fit: cover;
+}
+
+#none{
+    object-fit: none;
+}
+
+#scale-down{
+    object-fit: scale-down;
+}

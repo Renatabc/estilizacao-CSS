@@ -38,3 +38,10 @@ Sigla de *hue, saturation and lightness* (matiz, saturação e luz) onde:
 > - 100% é branco.
 
 Assim como RGBA, no HSL também pode acrescentar a transparência (A), com os mesmos valores: 0.0 (transparente) a 1.0 (sólido).
+
+## Imagens
+### Object-Fit
+Ela determina como uma imagem deve ser redimensionada dentro de um "container". Ela tem que mostrar se imagem deve preservar a proporção ou distorcer para caber no container.
+
+### Object-position
+É usada em conjunto com a object-fit. Vai especificar como a imagem deve ser posicionada, tanto horizontal como verticalmente. Por padrão, ela é centralizada.
