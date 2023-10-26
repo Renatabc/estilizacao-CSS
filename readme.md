@@ -66,4 +66,20 @@ Para alterar a posição da imagem de fundo, usa-se a propriedade *background-po
 ### Propriedade background-attachment
 Ela tem o propósito de definir como a imagem de fundo ficará, conforme fazemos a rolagem em um site. Muito usado nos chamados *parallax*.
 
- 
+ ## Efeitos de sombra
+ ### Nos elementos
+ Como colocar sombras nas caixas dos elementos: com *box-shadow*.
+ ```
+box-shadow: 2 a 4 valores de tamanho, valor de desfoque, valor de distância, cor
+ ```
+
+Para usar sombra dentro de uma imagem PNG usa-se o <u>filter: drop-shadow.</u>
+```
+filter: drop-shadow(10 px 10px 5px gray);
+ ```
+
+ ### Nos textos
+ Como colocar sombras nas caixas dos elementos: com *text-shadow*.
+ ```
+text-shadow: horizontal e vertical, valor de desfoque, cor
+ ```
