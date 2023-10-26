@@ -45,3 +45,25 @@ Ela determina como uma imagem deve ser redimensionada dentro de um "container". 
 
 ### Object-position
 É usada em conjunto com a object-fit. Vai especificar como a imagem deve ser posicionada, tanto horizontal como verticalmente. Por padrão, ela é centralizada.
+
+## Fundo dos elementos
+### Redimensionando imagens de fundo
+Haverão casos onde as imagens de fundo poderão ser maiores ou menores que o container, então como deixar ela ser totalmente visível? Utilizando a propriedade *background-size.* Com ela, algumas palavras-chave podem ser utilizadas em determinadas ocasiões:
+
+| palavra-chave | definição |
+|----------------|-----------|
+auto| é o valor padrão, a imagem se ajusta automaticamente. Se a imagem for maior que o container, será cortada; se for menor, haverá espaço sobrando.
+cover| a imagem ocupa totalmente o elemento, porém se for maior, será cortado o tamanho excedente e se for menor, repetirá a imagem.
+contain| vai redimensionar a imagem para que apareça totalmente, mas é necessário se atentar ao formato, pois se por exemplo, a imagem é retangular e o elemento é um quadrado, ela poderá se repetir para estar totalmente preenchida.
+unidades de medida| também podem utilizar as unidades de medida (px, %, etc) para redimensionar a imagem.
+
+### Repetição das imagens de fundo
+Se a imagem de fundo deve ou não se repetir, é utilizada a propriedade *background-repeat*.
+
+### Posicionamento das imagens de fundo
+Para alterar a posição da imagem de fundo, usa-se a propriedade *background-position*.
+
+### Propriedade background-attachment
+Ela tem o propósito de definir como a imagem de fundo ficará, conforme fazemos a rolagem em um site. Muito usado nos chamados *parallax*.
+
+ 
