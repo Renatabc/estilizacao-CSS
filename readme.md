@@ -83,3 +83,7 @@ filter: drop-shadow(10 px 10px 5px gray);
  ```
 text-shadow: horizontal e vertical, valor de desfoque, cor
  ```
+
+ ## Extras
+ ### Transparência nos elementos
+ Para aplicar transparência em elementos, é utilizada a propriedade <code>opacity</code>, que varia de 0 (transparente) a 1 (sólido).
